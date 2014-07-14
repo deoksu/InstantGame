@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181B082319739A2300863294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B082219739A2300863294 /* Foundation.framework */; };
+		181B082519739A2400863294 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B082419739A2400863294 /* CoreGraphics.framework */; };
+		181B082719739A2400863294 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B082619739A2400863294 /* UIKit.framework */; };
+		181B082D19739A2400863294 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181B082B19739A2400863294 /* InfoPlist.strings */; };
+		181B082F19739A2400863294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B082E19739A2400863294 /* main.m */; };
+		181B083319739A2400863294 /* IGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B083219739A2400863294 /* IGAppDelegate.m */; };
+		181B083519739A2400863294 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181B083419739A2400863294 /* Images.xcassets */; };
+		181B083C19739A2400863294 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B083B19739A2400863294 /* XCTest.framework */; };
+		181B083D19739A2400863294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B082219739A2300863294 /* Foundation.framework */; };
+		181B083E19739A2400863294 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B082619739A2400863294 /* UIKit.framework */; };
+		181B084619739A2400863294 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181B084419739A2400863294 /* InfoPlist.strings */; };
+		181B084819739A2400863294 /* InstantGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B084719739A2400863294 /* InstantGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181B083F19739A2400863294 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181B081719739A2300863294 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181B081E19739A2300863294;
+			remoteInfo = InstantGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181B081F19739A2300863294 /* InstantGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B082219739A2300863294 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		181B082419739A2400863294 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		181B082619739A2400863294 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		181B082A19739A2400863294 /* InstantGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstantGame-Info.plist"; sourceTree = "<group>"; };
+		181B082C19739A2400863294 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		181B082E19739A2400863294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181B083019739A2400863294 /* InstantGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstantGame-Prefix.pch"; sourceTree = "<group>"; };
+		181B083119739A2400863294 /* IGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IGAppDelegate.h; sourceTree = "<group>"; };
+		181B083219739A2400863294 /* IGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGAppDelegate.m; sourceTree = "<group>"; };
+		181B083419739A2400863294 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		181B083A19739A2400863294 /* InstantGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181B083B19739A2400863294 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		181B084319739A2400863294 /* InstantGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstantGameTests-Info.plist"; sourceTree = "<group>"; };
+		181B084519739A2400863294 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		181B084719739A2400863294 /* InstantGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstantGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181B081C19739A2300863294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B082519739A2400863294 /* CoreGraphics.framework in Frameworks */,
+				181B082719739A2400863294 /* UIKit.framework in Frameworks */,
+				181B082319739A2300863294 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B083719739A2400863294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B083C19739A2400863294 /* XCTest.framework in Frameworks */,
+				181B083E19739A2400863294 /* UIKit.framework in Frameworks */,
+				181B083D19739A2400863294 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181B081619739A2300863294 = {
+			isa = PBXGroup;
+			children = (
+				181B082819739A2400863294 /* InstantGame */,
+				181B084119739A2400863294 /* InstantGameTests */,
+				181B082119739A2300863294 /* Frameworks */,
+				181B082019739A2300863294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181B082019739A2300863294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181B081F19739A2300863294 /* InstantGame.app */,
+				181B083A19739A2400863294 /* InstantGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181B082119739A2300863294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181B082219739A2300863294 /* Foundation.framework */,
+				181B082419739A2400863294 /* CoreGraphics.framework */,
+				181B082619739A2400863294 /* UIKit.framework */,
+				181B083B19739A2400863294 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		181B082819739A2400863294 /* InstantGame */ = {
+			isa = PBXGroup;
+			children = (
+				181B083119739A2400863294 /* IGAppDelegate.h */,
+				181B083219739A2400863294 /* IGAppDelegate.m */,
+				181B083419739A2400863294 /* Images.xcassets */,
+				181B082919739A2400863294 /* Supporting Files */,
+			);
+			path = InstantGame;
+			sourceTree = "<group>";
+		};
+		181B082919739A2400863294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181B082A19739A2400863294 /* InstantGame-Info.plist */,
+				181B082B19739A2400863294 /* InfoPlist.strings */,
+				181B082E19739A2400863294 /* main.m */,
+				181B083019739A2400863294 /* InstantGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181B084119739A2400863294 /* InstantGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				181B084719739A2400863294 /* InstantGameTests.m */,
+				181B084219739A2400863294 /* Supporting Files */,
+			);
+			path = InstantGameTests;
+			sourceTree = "<group>";
+		};
+		181B084219739A2400863294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				181B084319739A2400863294 /* InstantGameTests-Info.plist */,
+				181B084419739A2400863294 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181B081E19739A2300863294 /* InstantGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181B084B19739A2400863294 /* Build configuration list for PBXNativeTarget "InstantGame" */;
+			buildPhases = (
+				181B081B19739A2300863294 /* Sources */,
+				181B081C19739A2300863294 /* Frameworks */,
+				181B081D19739A2300863294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstantGame;
+			productName = InstantGame;
+			productReference = 181B081F19739A2300863294 /* InstantGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181B083919739A2400863294 /* InstantGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181B084E19739A2400863294 /* Build configuration list for PBXNativeTarget "InstantGameTests" */;
+			buildPhases = (
+				181B083619739A2400863294 /* Sources */,
+				181B083719739A2400863294 /* Frameworks */,
+				181B083819739A2400863294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181B084019739A2400863294 /* PBXTargetDependency */,
+			);
+			name = InstantGameTests;
+			productName = InstantGameTests;
+			productReference = 181B083A19739A2400863294 /* InstantGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181B081719739A2300863294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kr.hs.mirim;
+				TargetAttributes = {
+					181B083919739A2400863294 = {
+						TestTargetID = 181B081E19739A2300863294;
+					};
+				};
+			};
+			buildConfigurationList = 181B081A19739A2300863294 /* Build configuration list for PBXProject "InstantGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 181B081619739A2300863294;
+			productRefGroup = 181B082019739A2300863294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181B081E19739A2300863294 /* InstantGame */,
+				181B083919739A2400863294 /* InstantGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181B081D19739A2300863294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B082D19739A2400863294 /* InfoPlist.strings in Resources */,
+				181B083519739A2400863294 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B083819739A2400863294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B084619739A2400863294 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181B081B19739A2300863294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B083319739A2400863294 /* IGAppDelegate.m in Sources */,
+				181B082F19739A2400863294 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181B083619739A2400863294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181B084819739A2400863294 /* InstantGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181B084019739A2400863294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181B081E19739A2300863294 /* InstantGame */;
+			targetProxy = 181B083F19739A2400863294 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181B082B19739A2400863294 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B082C19739A2400863294 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		181B084419739A2400863294 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181B084519739A2400863294 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181B084919739A2400863294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		181B084A19739A2400863294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181B084C19739A2400863294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstantGame/InstantGame-Prefix.pch";
+				INFOPLIST_FILE = "InstantGame/InstantGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		181B084D19739A2400863294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstantGame/InstantGame-Prefix.pch";
+				INFOPLIST_FILE = "InstantGame/InstantGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		181B084F19739A2400863294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InstantGame.app/InstantGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstantGame/InstantGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InstantGameTests/InstantGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		181B085019739A2400863294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InstantGame.app/InstantGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstantGame/InstantGame-Prefix.pch";
+				INFOPLIST_FILE = "InstantGameTests/InstantGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181B081A19739A2300863294 /* Build configuration list for PBXProject "InstantGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B084919739A2400863294 /* Debug */,
+				181B084A19739A2400863294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181B084B19739A2400863294 /* Build configuration list for PBXNativeTarget "InstantGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B084C19739A2400863294 /* Debug */,
+				181B084D19739A2400863294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		181B084E19739A2400863294 /* Build configuration list for PBXNativeTarget "InstantGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181B084F19739A2400863294 /* Debug */,
+				181B085019739A2400863294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181B081719739A2300863294 /* Project object */;
+}
