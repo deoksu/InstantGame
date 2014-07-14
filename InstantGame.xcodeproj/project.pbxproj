@@ -19,6 +19,12 @@
 		181B083E19739A2400863294 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B082619739A2400863294 /* UIKit.framework */; };
 		181B084619739A2400863294 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181B084419739A2400863294 /* InfoPlist.strings */; };
 		181B084819739A2400863294 /* InstantGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B084719739A2400863294 /* InstantGameTests.m */; };
+		181B085819739A4200863294 /* tile3.png in Resources */ = {isa = PBXBuildFile; fileRef = 181B085119739A4200863294 /* tile3.png */; };
+		181B085919739A4200863294 /* tile2.png in Resources */ = {isa = PBXBuildFile; fileRef = 181B085219739A4200863294 /* tile2.png */; };
+		181B085A19739A4200863294 /* tile1.png in Resources */ = {isa = PBXBuildFile; fileRef = 181B085319739A4200863294 /* tile1.png */; };
+		181B085B19739A4200863294 /* IGElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B085519739A4200863294 /* IGElement.m */; };
+		181B085C19739A4200863294 /* IGElementManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B085719739A4200863294 /* IGElementManager.m */; };
+		181B085F19739A5D00863294 /* IGVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 181B085E19739A5D00863294 /* IGVC1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,15 @@
 		181B084319739A2400863294 /* InstantGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstantGameTests-Info.plist"; sourceTree = "<group>"; };
 		181B084519739A2400863294 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		181B084719739A2400863294 /* InstantGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstantGameTests.m; sourceTree = "<group>"; };
+		181B085119739A4200863294 /* tile3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile3.png; sourceTree = "<group>"; };
+		181B085219739A4200863294 /* tile2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile2.png; sourceTree = "<group>"; };
+		181B085319739A4200863294 /* tile1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile1.png; sourceTree = "<group>"; };
+		181B085419739A4200863294 /* IGElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGElement.h; sourceTree = "<group>"; };
+		181B085519739A4200863294 /* IGElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGElement.m; sourceTree = "<group>"; };
+		181B085619739A4200863294 /* IGElementManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGElementManager.h; sourceTree = "<group>"; };
+		181B085719739A4200863294 /* IGElementManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGElementManager.m; sourceTree = "<group>"; };
+		181B085D19739A5D00863294 /* IGVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGVC1.h; sourceTree = "<group>"; };
+		181B085E19739A5D00863294 /* IGVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGVC1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +92,13 @@
 		181B081619739A2300863294 = {
 			isa = PBXGroup;
 			children = (
+				181B085119739A4200863294 /* tile3.png */,
+				181B085219739A4200863294 /* tile2.png */,
+				181B085319739A4200863294 /* tile1.png */,
+				181B085419739A4200863294 /* IGElement.h */,
+				181B085519739A4200863294 /* IGElement.m */,
+				181B085619739A4200863294 /* IGElementManager.h */,
+				181B085719739A4200863294 /* IGElementManager.m */,
 				181B082819739A2400863294 /* InstantGame */,
 				181B084119739A2400863294 /* InstantGameTests */,
 				181B082119739A2300863294 /* Frameworks */,
@@ -109,6 +131,8 @@
 			children = (
 				181B083119739A2400863294 /* IGAppDelegate.h */,
 				181B083219739A2400863294 /* IGAppDelegate.m */,
+				181B085D19739A5D00863294 /* IGVC1.h */,
+				181B085E19739A5D00863294 /* IGVC1.m */,
 				181B083419739A2400863294 /* Images.xcassets */,
 				181B082919739A2400863294 /* Supporting Files */,
 			);
@@ -220,8 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181B085919739A4200863294 /* tile2.png in Resources */,
 				181B082D19739A2400863294 /* InfoPlist.strings in Resources */,
 				181B083519739A2400863294 /* Images.xcassets in Resources */,
+				181B085A19739A4200863294 /* tile1.png in Resources */,
+				181B085819739A4200863294 /* tile3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181B085B19739A4200863294 /* IGElement.m in Sources */,
 				181B083319739A2400863294 /* IGAppDelegate.m in Sources */,
+				181B085F19739A5D00863294 /* IGVC1.m in Sources */,
+				181B085C19739A4200863294 /* IGElementManager.m in Sources */,
 				181B082F19739A2400863294 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

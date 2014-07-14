@@ -7,6 +7,7 @@
 //
 
 #import "IGAppDelegate.h"
+#import "IGVC1.h"
 
 @implementation IGAppDelegate
 
@@ -16,6 +17,8 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController=[[IGVC1 alloc]init];
     return YES;
 }
 
